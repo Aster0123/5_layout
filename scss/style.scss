@@ -1,0 +1,56 @@
+$font-family-base: 'Source Sans Pro', sans-serif;
+
+@import "../bootstrap/scss/bootstrap";
+@import "header";
+@import "overview";
+@import "details1";
+@import "details2";
+@import "comments";
+@import "question";
+@import "prices";
+@import "contact";
+@import "footer";
+@import "media";
+
+
+html,
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.wrapper1 {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+.wrapper2 {
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  display: flex;
+  overflow: hidden;
+}
+.wrapper3 {
+  height: 561px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 8px;
+  max-width: 1170px;
+}
+.wrapper23 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 405px;
+}

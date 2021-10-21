@@ -1,0 +1,400 @@
+@media (max-width: 767px) {
+  .wrapper23 {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0 40px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .slider2 {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .details1 {
+    width: 100%;
+  }
+  .comments {
+    margin: auto;
+
+    &_block {
+      height: 640px;
+      width: 100%;
+    }
+  }
+  .contact_text{
+    width: 100%;
+  }
+.header__left{
+  width: 100%;
+}
+}
+@media (max-width: 577px) {
+  .header__left {
+    width:100% ;
+    padding:20px;
+  }
+  .slider2 {
+    position: relative;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 60px
+  }
+}
+
+@media (max-width: 1200px){
+  .header__photo {
+    img {
+      width: 405px;
+      height: 419px;
+      margin-top: 100px;
+    }
+  }
+  .slider3 {
+    padding: 0 39px;
+  }
+  .slider2 .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding-right: 51px;
+  }
+  .slider_2__item_1{
+    margin:0;
+  }
+  .slider_2__item_2{
+    margin:0;
+    transform: translate(0);
+  }
+  .slider_2__item_3{
+    margin:0;
+    transform: translate(0);
+  }
+}
+@media (max-width: 992px) {
+  .contact{
+    &_text_item{
+      padding: 0;
+      margin: auto;
+    }
+    &_text_item1{
+      padding: 0;
+      margin: auto;
+    }
+    &_text_item2{
+      padding: 0;
+      margin: auto;
+    }
+  }
+
+  .header__left {
+    width: 100%;
+    .row {
+      .header__left_text {
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+        h3 {
+          font-size: 13px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 14px;
+          margin: auto;
+          padding-right: 0;
+        }
+
+        .button_download {
+          .download2 {
+            margin-left: 0;
+          }
+        }
+      }
+
+      .header__photo {
+        display: none;
+      }
+    }
+  }
+  .wrapper5 .black_block p {
+    text-align: center;
+  }
+  .bottonInBlackArea {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1170px;
+  }
+
+}
+@media (max-width: 992px) {
+  .details2_photo{
+    img{
+      width:500px;
+      height:520px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 1248px){
+  .overview_photo{
+    padding:35px 0 0 50px;
+  }
+  .details2__text{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1040px) {
+  .details1__text_icons{
+    margin: auto;
+    width: 288px;
+  }
+  .details1__text{
+    margin: auto;
+  }
+  .details1__text_main {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    p{
+      margin: auto;
+    }
+  }
+  .overview_photo {
+    padding: 35px 0 0 0;
+
+    img {
+      width: 450px;
+      height: 570px;
+    }
+  }
+  .details2_photo{
+    img{
+      width: 600px;
+      height: 391px;
+    }
+  }
+  .details2__text_main {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 990px){
+  .overview_photo{
+    margin: auto;
+    img {
+      width: 450px;
+      height: 570px;
+      margin-left: 27%;
+    }
+  }
+  .buttonInForm .btn {
+    margin: 0 auto;
+  }
+  .details2_photo{
+    margin: auto;
+    img{
+      width: 600px;
+      height: 391px;
+      margin-left: 17%;
+    }
+  }
+  .details2__text{
+    margin: auto;
+  }
+  .details2__text_main{
+    text-align: center;
+  }
+  .contact_form {
+    width: 430px;
+  }
+  .fields_input1 {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 760px){
+  .overview_photo{
+    margin: auto;
+    img {
+      width: 440px;
+      height: 570px;
+      margin-left: 15%;
+    }
+  }
+  .details2_photo{
+    margin: auto;
+    img{
+      width: 600px;
+      height: 391px;
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 540px){
+  .overview_photo{
+    img {
+      width: 350px;
+      height: 470px;
+    }
+  }
+  .details2_photo{
+    margin: auto;
+    img{
+      display: none;
+    }
+  }
+}
+@media (max-width: 380px){
+  .overview_photo{
+    img {
+      width: 350px;
+      height: 470px;
+      margin: 0;
+    }
+  }
+}
+@media (max-width: 1114px) {
+  .header__photo img {
+    margin-top: 117px;
+  }
+  .slider_1__item_1{
+    margin:auto;
+    h2{
+    margin: auto;
+      padding: 0;
+    }
+  }
+  .slider_1__item_2{
+    margin:auto;
+    h2{
+      margin: auto;
+      padding: 0;
+    }
+  }
+  .slider_1__item_3{
+    margin:auto;
+    h2{
+      margin: auto;
+      padding: 0;
+    }
+  }
+  .slider_1__item_4{
+    margin:auto;
+
+    h2{
+      margin: auto;
+      padding: 0;
+      white-space: nowrap;
+    }
+  }
+  .experiment1{
+    margin: 20px auto;
+  }
+  .experiment2{
+    margin: 20px auto;
+  }
+  .experiment3{
+    margin: 20px auto;
+  }
+  .experiment4{
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .row {
+    margin: 0;
+  }
+  .contact_form {
+    padding: 50px;
+  }
+  .buttonInForm .btn {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 420px) {
+  .wrapper5 .black_block {
+    p {
+      font-size: 20px;
+      width: 320px;
+      margin: 59px auto 20px auto;
+      span{
+        font-size: 20px;
+      }
+    }
+  }
+
+  .bottonInBlackArea .btn {
+    margin: 0 auto 10px auto;
+  }
+  .slider2{
+    padding-top: 9px;
+  }
+  .slider2 .slick-dots {
+    margin-top: 31px;
+  }
+}
+@media (max-width: 422px) {
+  .overview_photo img {
+    width: 310px;
+    height: 350px;
+    margin: auto;
+  }
+}
+  @media (max-width: 452px){
+    .contact_form{
+      width: 320px;
+      margin: 0;
+    }
+  .fields_input .input_1 {
+    width: 200px;
+    margin: 10px auto;
+  }
+  .fields_input1 .input_2 {
+    width: 200px;
+    margin: 10px auto;
+  }
+  .fields_input1 {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 952px){
+  .buttonCard p {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px){
+  .buttonCard p {
+    padding-bottom: 37px;
+  }
+}
+@media (max-width: 622px) {
+  .card__title {
+    width: 242px;
+  }
+  .card__price {
+    width: 242px;
+  }
+  .card__inform {
+    width: 242px;
+  }
+}

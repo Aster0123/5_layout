@@ -1,0 +1,50 @@
+.details2 {
+  width: 1170px;
+  margin:auto;
+  overflow: hidden;
+
+  &__text {
+    display: flex;
+    &_main {
+      margin-top: 113px;
+      h3{
+        font-size: 14px;
+        line-height: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #008ed6;
+        margin-bottom: 7px;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: none;
+        letter-spacing: normal;
+        color: #1a1a1a;
+        margin-top: -13px;
+        margin-bottom: 14px;
+        padding-top: 1px;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: normal;
+        color: #999999;
+        margin-top: 14px;
+        span{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+.details2_photo {
+  padding: 0;
+  margin-left: -14px;
+  margin-top: 33px;
+  margin-bottom: 19px;
+}

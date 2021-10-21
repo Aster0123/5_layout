@@ -1,0 +1,194 @@
+.prices {
+  text-align: center;
+  margin: 0 auto 52px auto;
+  h3 {
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #008ed6;
+    margin-bottom: 7px;
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #1a1a1a;
+    margin-top: -13px;
+    margin-bottom: 13px;
+    padding-bottom: 4px;
+  }
+}
+
+.card {
+  &__title {
+    width: 272px;
+    height: 72px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+
+    span {
+      font-size: 24px;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      margin: 27px auto;
+    }
+  }
+
+  &__price {
+    width: 272px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+
+    .price_number {
+      font-size: 60px;
+      line-height: 20px;
+      font-weight: 600;
+      color: #1a1a1a;
+      padding: 0 0 0 7px;
+      margin: 51px auto 24px auto;
+      position: relative;
+      span {
+        font-size: 28px;
+        position: absolute;
+        bottom: 8px;
+        right: 31px;
+      }
+    }
+    .price_number1 {
+      font-size: 60px;
+      line-height: 20px;
+      font-weight: 600;
+      color: #1a1a1a;
+      padding: 0 0 0 10px;
+      margin: 51px auto 24px auto;
+      position: relative;
+      span {
+        font-size: 28px;
+        position: absolute;
+        bottom: 8px;
+        right: 62px;
+      }
+    }
+    .per_month {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      color: #999999;
+      padding: 0;
+      margin: -6px auto 0 auto;
+    }
+  }
+
+  &__inform {
+    width: 272px;
+    height: 272px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    text-align: center;
+  }
+}
+
+.buttonCard {
+  margin: auto;
+
+  p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #999999;
+    padding: 13px 30px 20px 30px;
+    margin: 0 0 19px 0;
+  }
+
+  .btn {
+    width: 162px;
+    height: 52px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    margin: auto;
+  }
+
+  a {
+    margin: -5px auto;
+    text-decoration: none;
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+  }
+}
+
+.slider__item3 {
+  padding: 0;
+  .card__price {
+    transition: background-color 0.7s;
+  }
+}
+
+.slider__item3:hover {
+  .card__title {
+    span {
+      color: #008ed6;
+    }
+  }
+  .card__price{
+    background-color: #008ed6;
+    .price_number{
+      color: white;
+    }
+    .price_number1{
+      color: white;
+    }
+    .per_month{
+      color:white;
+    }
+  }
+  .btn {
+    width: 162px;
+    height: 52px;
+    background-color:  #008ed6;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+
+    span{
+      color:white;
+      text-decoration: none;
+    }
+  }
+}
+
+.slider__item3 img {
+  max-width: 100%;
+}
+
+.slider_2__item_1{
+  margin-right: 20px;
+}
+.slider_2__item_2{
+  margin-right: 30px;
+  transform: translate(5px);
+}
+.slider_2__item_3{
+  margin-right: 29px;
+  transform: translate(2px);
+}
